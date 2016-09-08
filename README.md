@@ -22,7 +22,7 @@ pod "EasyDBox"
 
 ## Author
 
-Paulo Goncalves, developer@safetybeat.com
+Paulo Goncalves, phsgjc@gmail.com
 
 ## License
 

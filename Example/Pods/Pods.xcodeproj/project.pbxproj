@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079ADBC91D8103EA0036C67B /* EDBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 079ADBBF1D8103EA0036C67B /* EDBox.h */; };
+		079ADBCA1D8103EA0036C67B /* EDBoxAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 079ADBC01D8103EA0036C67B /* EDBoxAccount.h */; };
+		079ADBCB1D8103EA0036C67B /* EDBoxAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 079ADBC11D8103EA0036C67B /* EDBoxAccount.m */; };
+		079ADBCC1D8103EA0036C67B /* EDBoxApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 079ADBC21D8103EA0036C67B /* EDBoxApi.h */; };
+		079ADBCD1D8103EA0036C67B /* EDBoxApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 079ADBC31D8103EA0036C67B /* EDBoxApi.m */; };
+		079ADBCE1D8103EA0036C67B /* EDBoxRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 079ADBC41D8103EA0036C67B /* EDBoxRequest.h */; };
+		079ADBCF1D8103EA0036C67B /* EDBoxRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 079ADBC51D8103EA0036C67B /* EDBoxRequest.m */; };
+		079ADBD01D8103EA0036C67B /* EDBoxUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 079ADBC61D8103EA0036C67B /* EDBoxUtility.h */; };
+		079ADBD11D8103EA0036C67B /* EDBoxUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 079ADBC71D8103EA0036C67B /* EDBoxUtility.m */; };
 		08BBB5298AEBCC68622949B6423A3A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		0B845133411979A03F0F326BE627EA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		28CA49A2F6C016EDB7BEB2B29F48C9B6 /* Pods-EasyDBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8E06021BE3DF0683DA27DDD7B8DA5F /* Pods-EasyDBox_Tests-dummy.m */; };
 		86D863C36B49CF567FBC09DDD603562C /* EasyDBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5048CA44DFBE416B2609E171CC13BE /* EasyDBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A03DAD7B0855F1B570E0C0C2F2E77903 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BB4529D3F90AF858C700A61A9D15D2 /* ReplaceMe.m */; };
 		A76B3C9C883077E046953243D18CB2B2 /* Pods-EasyDBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D856619867E09F3AA05060F5AA0DC75C /* Pods-EasyDBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAEB671B0E2E2A1AC5165D193FE5FED5 /* EasyDBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E342A8F531D773D2AEDD8A382795F117 /* EasyDBox-dummy.m */; };
 		D548AE204E82AEF9AA39E4CF509FC31D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -31,6 +39,16 @@
 
 /* Begin PBXFileReference section */
 		01CA874B3233957C612B4D7D222005F2 /* Pods-EasyDBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyDBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		079ADBBF1D8103EA0036C67B /* EDBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDBox.h; path = Classes/EDBox.h; sourceTree = "<group>"; };
+		079ADBC01D8103EA0036C67B /* EDBoxAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDBoxAccount.h; path = Classes/EDBoxAccount.h; sourceTree = "<group>"; };
+		079ADBC11D8103EA0036C67B /* EDBoxAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDBoxAccount.m; path = Classes/EDBoxAccount.m; sourceTree = "<group>"; };
+		079ADBC21D8103EA0036C67B /* EDBoxApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDBoxApi.h; path = Classes/EDBoxApi.h; sourceTree = "<group>"; };
+		079ADBC31D8103EA0036C67B /* EDBoxApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDBoxApi.m; path = Classes/EDBoxApi.m; sourceTree = "<group>"; };
+		079ADBC41D8103EA0036C67B /* EDBoxRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDBoxRequest.h; path = Classes/EDBoxRequest.h; sourceTree = "<group>"; };
+		079ADBC51D8103EA0036C67B /* EDBoxRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDBoxRequest.m; path = Classes/EDBoxRequest.m; sourceTree = "<group>"; };
+		079ADBC61D8103EA0036C67B /* EDBoxUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EDBoxUtility.h; path = Classes/EDBoxUtility.h; sourceTree = "<group>"; };
+		079ADBC71D8103EA0036C67B /* EDBoxUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDBoxUtility.m; path = Classes/EDBoxUtility.m; sourceTree = "<group>"; };
+		079ADBC81D8103EA0036C67B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Classes/Info.plist; sourceTree = "<group>"; };
 		10783D70E3DD48E83032795D7114274E /* Pods-EasyDBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyDBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1363F2D0FCD583F3A35A6301C9EE020F /* EasyDBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyDBox.xcconfig; sourceTree = "<group>"; };
 		201D998F2E814463783B6B02F35FA06E /* Pods-EasyDBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyDBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,7 +58,6 @@
 		3538810D79914F1CF77DBA8DAC175AC3 /* Pods-EasyDBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasyDBox_Tests.modulemap"; sourceTree = "<group>"; };
 		388B961151FAC6EE1E10985E57954A2B /* Pods-EasyDBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyDBox_Example-dummy.m"; sourceTree = "<group>"; };
 		3FEBC5A8296B5D4406A28080DB958430 /* Pods-EasyDBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyDBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		48BB4529D3F90AF858C700A61A9D15D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		526ED804627D4B2ABEDE60E873D505FF /* Pods-EasyDBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyDBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5E150B5A30516D8B1555A8AF3B413735 /* Pods-EasyDBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyDBox_Example-umbrella.h"; sourceTree = "<group>"; };
 		5E5048CA44DFBE416B2609E171CC13BE /* EasyDBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyDBox-umbrella.h"; sourceTree = "<group>"; };
@@ -168,7 +185,16 @@
 		87E30303AA62D66CBC935695B032FA52 /* EasyDBox */ = {
 			isa = PBXGroup;
 			children = (
-				ECA5BF81C0F291C4F38BDCFEEA0EF588 /* Classes */,
+				079ADBBF1D8103EA0036C67B /* EDBox.h */,
+				079ADBC01D8103EA0036C67B /* EDBoxAccount.h */,
+				079ADBC11D8103EA0036C67B /* EDBoxAccount.m */,
+				079ADBC21D8103EA0036C67B /* EDBoxApi.h */,
+				079ADBC31D8103EA0036C67B /* EDBoxApi.m */,
+				079ADBC41D8103EA0036C67B /* EDBoxRequest.h */,
+				079ADBC51D8103EA0036C67B /* EDBoxRequest.m */,
+				079ADBC61D8103EA0036C67B /* EDBoxUtility.h */,
+				079ADBC71D8103EA0036C67B /* EDBoxUtility.m */,
+				079ADBC81D8103EA0036C67B /* Info.plist */,
 			);
 			path = EasyDBox;
 			sourceTree = "<group>";
@@ -214,14 +240,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ECA5BF81C0F291C4F38BDCFEEA0EF588 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				48BB4529D3F90AF858C700A61A9D15D2 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -237,7 +255,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079ADBCC1D8103EA0036C67B /* EDBoxApi.h in Headers */,
 				86D863C36B49CF567FBC09DDD603562C /* EasyDBox-umbrella.h in Headers */,
+				079ADBC91D8103EA0036C67B /* EDBox.h in Headers */,
+				079ADBCE1D8103EA0036C67B /* EDBoxRequest.h in Headers */,
+				079ADBD01D8103EA0036C67B /* EDBoxUtility.h in Headers */,
+				079ADBCA1D8103EA0036C67B /* EDBoxAccount.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079ADBCF1D8103EA0036C67B /* EDBoxRequest.m in Sources */,
+				079ADBCB1D8103EA0036C67B /* EDBoxAccount.m in Sources */,
 				CAEB671B0E2E2A1AC5165D193FE5FED5 /* EasyDBox-dummy.m in Sources */,
-				A03DAD7B0855F1B570E0C0C2F2E77903 /* ReplaceMe.m in Sources */,
+				079ADBD11D8103EA0036C67B /* EDBoxUtility.m in Sources */,
+				079ADBCD1D8103EA0036C67B /* EDBoxApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

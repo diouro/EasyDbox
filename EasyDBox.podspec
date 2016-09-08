@@ -23,7 +23,7 @@ DESC
 s.homepage         = 'https://github.com/diouro/EasyDBox'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'Paulo Goncalves' => 'developer@safetybeat.com' }
+s.author           = { 'Paulo Goncalves' => 'phsgjc@gmail.com' }
 s.source           = { :git => 'https://github.com/diouro/EasyDBox.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/diouro'
 

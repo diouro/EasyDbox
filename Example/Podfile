@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'EasyDBox_Example' do
+    #pod 'EasyDBox', :path => '../'
+  pod 'EasyDBox', :git => 'https://github.com/diouro/EasyDbox.git'
+  
+  target 'EasyDBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

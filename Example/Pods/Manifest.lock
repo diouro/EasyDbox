@@ -1,0 +1,16 @@
+PODS:
+  - EasyDBox (0.1.0)
+
+DEPENDENCIES:
+  - EasyDBox (from `../`)
+
+EXTERNAL SOURCES:
+  EasyDBox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasyDBox: 5aba6e9b410909f5bcf2b2e2d85472265612b580
+
+PODFILE CHECKSUM: a7b6774e1c41089e9ba9830ce65d7f571c652524
+
+COCOAPODS: 1.0.1

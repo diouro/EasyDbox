@@ -1,0 +1,6 @@
+framework module EasyDBox {
+  umbrella header "EasyDBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
